@@ -126,7 +126,35 @@ button:hover{
     width:80%;
     margin:0 auto;
 }
-
+@media (max-width: 500px){
+    .title-container div{
+        width: 100%;
+    }
+    .artists-container{
+        display:flex;
+        flex-flow: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .artists-container div{
+        width: 70%;
+        text-align: center;
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        align-items: center;
+    }
+    nav{
+        width:30%;
+        display:flex;
+        justify-content:space-evenly;
+        margin-top:5%;
+    }
+    nav a{
+        margin: 5%;
+    }
+}
 .artist{
     width:40%;
     text-align:center;
